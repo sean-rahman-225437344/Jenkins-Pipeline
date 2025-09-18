@@ -23,7 +23,7 @@ pipeline {
       steps { echo 'Run E2E tests.' }
     }
     stage('Deploy to Production') {
-      steps { echo 'Deploy to production server.' }
+      steps { echo 'Deploy to production server with new change.' }
     }
   }
 }
