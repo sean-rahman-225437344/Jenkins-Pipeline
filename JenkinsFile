@@ -17,7 +17,7 @@ pipeline {
       steps { echo 'Scan for vulnerabilities.' }
     }
     stage('Deploy to Staging') {
-      steps { echo 'Deploy to staging server.' }
+      steps { echo 'Deploy to staging server with new changes.' }
     }
     stage('Integration Tests on Staging') {
       steps { echo 'Run E2E tests with new change.' }
