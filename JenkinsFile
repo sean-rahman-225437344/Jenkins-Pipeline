@@ -8,7 +8,7 @@ pipeline {
       steps { echo 'Build step.' }
     }
     stage('Unit & Integration Tests') {
-      steps { echo 'Run tests.' }
+      steps { echo 'Run tests with new changes.' }
     }
     stage('Code Analysis') {
       steps { echo 'Check code quality with new changes.' }
